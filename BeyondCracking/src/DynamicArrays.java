@@ -90,6 +90,11 @@ public class DynamicArrays {
         return this.capacity;
     }
     public static void main(String[] args) {
-
+        DynamicArrays d = new DynamicArrays();
+        d.append(1);
+        d.append(2);
+        System.out.println(d.get(0));
+        System.out.println(d.get(1));
+        System.out.println(d.size());
     }
 }
